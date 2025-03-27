@@ -1,13 +1,19 @@
 import { createRouter, createWebHistory } from "vue-router";
 import LoginView from "../views/LoginView.vue";
 import RegisterView from "../views/RegisterView.vue";
-import DashboardView from "../views/DashboardView.vue";
+import ClosetView from "../views/ClosetView.vue";
+import ScannerView from "@/views/ScannerView.vue";
+import HomeView from "@/views/HomeView.vue";
+import PhotoReviewView from "@/views/PhotoReviewView.vue";
 
 const routes = [
-    { path: "/", redirect: "/login" },
+    { path: "/", redirect: "/home" },
+    { path: "/home", component: HomeView },
+    { path: "/photoReview", component: PhotoReviewView },
     { path: "/login", component: LoginView },
     { path: "/register", component: RegisterView },
-    { path: "/dashboard", component: DashboardView }
+    { path: "/closet", component: ClosetView },
+    { path: "/scanner", component: ScannerView }
 ];
 
 const router = createRouter({

@@ -23,7 +23,6 @@ const handleSubmit = () => {
   if (isLogin.value) {
     router.push('/dashboardView');
   } else {
-    // You can also redirect after registration if needed
     router.push('/dashboardView');
   }
 };
@@ -31,7 +30,7 @@ const handleSubmit = () => {
 
 <template>
   <div class="d-flex flex-column align-items-center justify-content-center vh-100 bg-light">
-    <img src="./icons/logo.webp" alt="Logo" style="width: 300px; margin-bottom: 1.5rem;" />
+    <img src="../../public/icons/logo.webp" alt="Logo" style="width: 300px; margin-bottom: 1.5rem;" />
     <div class="card p-4 shadow-lg" style="width: 24rem;">
       <h2 class="text-center mb-4" v-if="isLogin">Login</h2>
       <h2 class="text-center mb-4" v-else>Register</h2>
