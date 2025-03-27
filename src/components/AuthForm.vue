@@ -1,7 +1,10 @@
 <script setup>
 import { ref } from 'vue';
+import { useRouter } from 'vue-router'
 
 const isLogin = ref(true);
+const router = useRouter();
+
 const form = ref({
   username: '',
   name: '',
@@ -17,12 +20,18 @@ const handleSubmit = () => {
     return;
   }
   console.log(isLogin.value ? 'Logging in' : 'Registering', form.value);
-  // TODO: Implement API call for authentication
+  if (isLogin.value) {
+    router.push('/dashboardView');
+  } else {
+    // You can also redirect after registration if needed
+    router.push('/dashboardView');
+  }
 };
 </script>
 
 <template>
-  <div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+  <div class="d-flex flex-column align-items-center justify-content-center vh-100 bg-light">
+    <img src="./icons/logo.webp" alt="Logo" style="width: 300px; margin-bottom: 1.5rem;" />
     <div class="card p-4 shadow-lg" style="width: 24rem;">
       <h2 class="text-center mb-4" v-if="isLogin">Login</h2>
       <h2 class="text-center mb-4" v-else>Register</h2>
