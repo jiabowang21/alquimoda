@@ -6,9 +6,11 @@ const closet = ref({
          ("../../public/icons/camiseta2.png"),
          ("../../public/icons/camiseta3.png")],
   Bottoms: [("../../public/icons/pantalon1.jpg"),
-            ("../../public/icons/pantalon2.png")],
+            ("../../public/icons/pantalon2.png"),
+            ("../../public/icons/pantalon3.png")],
   Shoes: [("../../public/icons/zapatos1.png"),
-          ("../../public/icons/zapatos2.png")],
+          ("../../public/icons/zapatos2.png"),
+          ("../../public/icons/zapatos3.png")],
   Accessories: [("../../public/icons/gorra1.png"),
                 ("../../public/icons/gorra2.png")]
 });
