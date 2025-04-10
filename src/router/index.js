@@ -6,6 +6,7 @@ import ScannerView from "@/views/ScannerView.vue";
 import HomeView from "@/views/HomeView.vue";
 import PhotoReviewView from "@/views/PhotoReviewView.vue";
 import GeneratorView from "@/views/GeneratorView.vue";
+import ChatbotView from "@/views/ChatbotView.vue";
 
 const routes = [
     { path: "/", redirect: "/home" },
@@ -15,7 +16,8 @@ const routes = [
     { path: "/register", component: RegisterView },
     { path: "/closet", component: ClosetView },
     { path: "/scanner", component: ScannerView },
-    { path: "/generator", component: GeneratorView }
+    { path: "/generator", component: GeneratorView },
+    { path: "/chatbot", component: ChatbotView }
 ];
 
 const router = createRouter({

@@ -21,9 +21,9 @@ const handleSubmit = () => {
   }
   console.log(isLogin.value ? 'Logging in' : 'Registering', form.value);
   if (isLogin.value) {
-    router.push('/dashboardView');
+    router.push('/home');
   } else {
-    router.push('/dashboardView');
+    router.push('/home');
   }
 };
 </script>

@@ -4,7 +4,7 @@ import AuthForm from "../components/AuthForm.vue";
 
 <template>
   <div class="d-flex justify-content-center align-items-center vh-100 bg-light">
-    <AuthForm />
+    <AuthForm/>
   </div>
 </template>
 

@@ -44,6 +44,9 @@ const hideNavbarRoutes = ['/', '/login', '/register'];
         <li class="nav-item">
           <RouterLink to="/generator" class="nav-link">Generator</RouterLink>
         </li>
+        <li class="nav-item">
+          <RouterLink to="/chatbot" class="nav-link">ChatBot</RouterLink>
+        </li>
       </ul>
     </div>
   </nav>
