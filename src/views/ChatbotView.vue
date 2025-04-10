@@ -65,7 +65,7 @@ const sendMessage = () => {
           images: [
             selectedShirt.value,
             "/icons/pantalon1.jpg",
-            "/icons/zapatos1.png"
+            "/icons/zapatos3.png"
           ]
         })
       } else {
