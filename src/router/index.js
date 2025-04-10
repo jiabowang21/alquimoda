@@ -8,6 +8,7 @@ import PhotoReviewView from "@/views/PhotoReviewView.vue";
 import GeneratorView from "@/views/GeneratorView.vue";
 import ChatbotView from "@/views/ChatbotView.vue";
 import SocialMediaView from "@/views/SocialMediaView.vue";
+import BuyListView from "@/views/BuyListView.vue";
 
 const routes = [
     { path: "/", redirect: "/home" },
@@ -19,7 +20,8 @@ const routes = [
     { path: "/scanner", component: ScannerView },
     { path: "/generator", component: GeneratorView },
     { path: "/chatbot", component: ChatbotView },
-    { path: "/socialMedia", component: SocialMediaView }
+    { path: "/socialMedia", component: SocialMediaView },
+    { path: "/buy", component: BuyListView }
 ];
 
 const router = createRouter({
