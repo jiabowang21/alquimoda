@@ -9,6 +9,7 @@ import GeneratorView from "@/views/GeneratorView.vue";
 import ChatbotView from "@/views/ChatbotView.vue";
 import SocialMediaView from "@/views/SocialMediaView.vue";
 import BuyListView from "@/views/BuyListView.vue";
+import OufitOfTheDayView from "@/views/OufitOfTheDayView.vue";
 
 const routes = [
     { path: "/", redirect: "/home" },
@@ -21,7 +22,8 @@ const routes = [
     { path: "/generator", component: GeneratorView },
     { path: "/chatbot", component: ChatbotView },
     { path: "/socialMedia", component: SocialMediaView },
-    { path: "/buy", component: BuyListView }
+    { path: "/buy", component: BuyListView },
+    { path: "/ootd", component: OufitOfTheDayView }
 ];
 
 const router = createRouter({
