@@ -13,6 +13,7 @@ import OufitOfTheDayView from "@/views/OufitOfTheDayView.vue";
 import CalendaryView from "@/views/CalendaryView.vue";
 import DonationPointsView from "@/views/DonationPointsView.vue";
 import StadisticsView from "@/views/StadisticsView.vue";
+import VRView from "@/views/VRView.vue";
 
 const routes = [
     { path: "/", redirect: "/home" },
@@ -29,7 +30,8 @@ const routes = [
     { path: "/ootd", component: OufitOfTheDayView },
     { path: "/calendary", component: CalendaryView },
     { path: "/donationPoints", component: DonationPointsView },
-    { path: "/metrics", component: StadisticsView }
+    { path: "/metrics", component: StadisticsView },
+    { path: "/VR", component: VRView }
 ];
 
 const router = createRouter({
