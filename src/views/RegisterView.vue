@@ -16,7 +16,6 @@ const handleSubmit = () => {
     return;
   }
   console.log("Registering user", form.value);
-  // TODO: Implement API call for registration
 };
 </script>
 

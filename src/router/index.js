@@ -11,6 +11,7 @@ import SocialMediaView from "@/views/SocialMediaView.vue";
 import BuyListView from "@/views/BuyListView.vue";
 import OufitOfTheDayView from "@/views/OufitOfTheDayView.vue";
 import CalendaryView from "@/views/CalendaryView.vue";
+import DonationPointsView from "@/views/DonationPointsView.vue";
 
 const routes = [
     { path: "/", redirect: "/home" },
@@ -25,7 +26,8 @@ const routes = [
     { path: "/socialMedia", component: SocialMediaView },
     { path: "/buy", component: BuyListView },
     { path: "/ootd", component: OufitOfTheDayView },
-    { path: "/calendary", component: CalendaryView }
+    { path: "/calendary", component: CalendaryView },
+    { path: "/donationPoints", component: DonationPointsView }
 ];
 
 const router = createRouter({
