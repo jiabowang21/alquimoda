@@ -59,6 +59,9 @@ const hideNavbarRoutes = ['/', '/login', '/register'];
         <li class="nav-item">
           <RouterLink to="/calendary" class="nav-link">Calendar</RouterLink>
         </li>
+        <li class="nav-item">
+          <RouterLink to="/donationPoints" class="nav-link">Donation</RouterLink>
+        </li>
       </ul>
     </div>
   </nav>
