@@ -12,6 +12,7 @@ import BuyListView from "@/views/BuyListView.vue";
 import OufitOfTheDayView from "@/views/OufitOfTheDayView.vue";
 import CalendaryView from "@/views/CalendaryView.vue";
 import DonationPointsView from "@/views/DonationPointsView.vue";
+import StadisticsView from "@/views/StadisticsView.vue";
 
 const routes = [
     { path: "/", redirect: "/home" },
@@ -27,7 +28,8 @@ const routes = [
     { path: "/buy", component: BuyListView },
     { path: "/ootd", component: OufitOfTheDayView },
     { path: "/calendary", component: CalendaryView },
-    { path: "/donationPoints", component: DonationPointsView }
+    { path: "/donationPoints", component: DonationPointsView },
+    { path: "/metrics", component: StadisticsView }
 ];
 
 const router = createRouter({
