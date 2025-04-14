@@ -52,7 +52,6 @@ const verDetalles = () => {
       </div>
       <div class="buttons">
         <button class="red" @click="nuevaSugerencia">Nueva sugerencia</button>
-        <button class="dark" @click="verDetalles">Ver</button>
       </div>
     </div>
   </div>

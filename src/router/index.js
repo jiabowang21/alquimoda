@@ -10,6 +10,7 @@ import ChatbotView from "@/views/ChatbotView.vue";
 import SocialMediaView from "@/views/SocialMediaView.vue";
 import BuyListView from "@/views/BuyListView.vue";
 import OufitOfTheDayView from "@/views/OufitOfTheDayView.vue";
+import CalendaryView from "@/views/CalendaryView.vue";
 
 const routes = [
     { path: "/", redirect: "/home" },
@@ -23,7 +24,8 @@ const routes = [
     { path: "/chatbot", component: ChatbotView },
     { path: "/socialMedia", component: SocialMediaView },
     { path: "/buy", component: BuyListView },
-    { path: "/ootd", component: OufitOfTheDayView }
+    { path: "/ootd", component: OufitOfTheDayView },
+    { path: "/calendary", component: CalendaryView }
 ];
 
 const router = createRouter({
