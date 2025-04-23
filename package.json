@@ -1,9 +1,12 @@
 {
   "name": "alquimoda",
   "version": "1.0.0",
+  "homepage": "https://jiabowang21.github.io/alquimoda/",
   "private": false,
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "gh-pages": "^6.3.0",
     "vite": "^6.2.1",
     "vite-plugin-vue-devtools": "^7.7.2"
   }
