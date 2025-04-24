@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+const base = import.meta.env.BASE_URL;
 
 const suggestion = ref({
   city: 'Barcelona',

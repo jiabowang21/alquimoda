@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
+const base = import.meta.env.BASE_URL;
 
 // Lista de productos simulada
 const items = ref([

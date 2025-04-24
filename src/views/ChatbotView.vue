@@ -50,7 +50,7 @@ const sendMessage = () => {
 
     if (text.includes('camiseta')) {
       // Bot responde con una camiseta
-      selectedShirt.value = "../../public/icons/camiseta1.png"
+      selectedShirt.value = "/icons/camiseta1.png"
       messages.value.push({
         type: 'bot',
         text: 'Aquí tienes la camiseta',
@@ -64,8 +64,8 @@ const sendMessage = () => {
           text: 'Aquí tienes un outfit completo con esa camiseta:',
           images: [
             selectedShirt.value,
-            "../../public/icons/pantalon1.jpg",
-            "../../public/icons/zapatos3.png"
+            "/icons/pantalon1.jpg",
+            "/icons/zapatos3.png"
           ]
         })
       } else {
