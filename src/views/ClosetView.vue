@@ -2,17 +2,17 @@
 import { ref } from 'vue';
 
 const closet = ref({
-  Tops: [("../../public/icons/camiseta1.png"),
-         ("../../public/icons/camiseta2.png"),
-         ("../../public/icons/camiseta3.png")],
-  Bottoms: [("../../public/icons/pantalon1.jpg"),
-            ("../../public/icons/pantalon2.png"),
-            ("../../public/icons/pantalon3.png")],
-  Shoes: [("../../public/icons/zapatos1.png"),
-          ("../../public/icons/zapatos2.png"),
-          ("../../public/icons/zapatos3.png")],
-  Accessories: [("../../public/icons/gorra1.png"),
-                ("../../public/icons/gorra2.png")]
+  Tops: [("/icons/camiseta1.png"),
+         ("/icons/camiseta2.png"),
+         ("/icons/camiseta3.png")],
+  Bottoms: [("/icons/pantalon1.jpg"),
+            ("/icons/pantalon2.png"),
+            ("/icons/pantalon3.png")],
+  Shoes: [("/icons/zapatos1.png"),
+          ("/icons/zapatos2.png"),
+          ("/icons/zapatos3.png")],
+  Accessories: [("/icons/gorra1.png"),
+                ("/icons/gorra2.png")]
 });
 
 const selectedImage = ref(null);
