@@ -1,18 +1,27 @@
 <script setup>
 import { ref } from 'vue';
+const base = import.meta.env.BASE_URL;
 
 const closet = ref({
-  Tops: [("/alquimoda/icons/camiseta1.png"),
-         ("/alquimoda/icons/camiseta2.png"),
-         ("/alquimoda/icons/camiseta3.png")],
-  Bottoms: [("/alquimoda/icons/pantalon1.jpg"),
-            ("/alquimoda/icons/pantalon2.png"),
-            ("/alquimoda/icons/pantalon3.png")],
-  Shoes: [("/alquimoda/icons/zapatos1.png"),
-          ("/alquimoda/icons/zapatos2.png"),
-          ("/alquimoda/icons/zapatos3.png")],
-  Accessories: [("/alquimoda/icons/gorra1.png"),
-                ("/alquimoda/icons/gorra2.png")]
+  Tops: [
+    '${base}icons/camiseta1.png',
+    '${base}icons/camiseta2.png',
+    '${base}icons/camiseta3.png'
+  ],
+  Bottoms: [
+    '${base}icons/pantalon1.jpg',
+    '${base}icons/pantalon2.png',
+    '${base}icons/pantalon3.png'
+  ],
+  Shoes: [
+    '${base}icons/zapatos1.png',
+    '${base}icons/zapatos2.png',
+    '${base}icons/zapatos3.png'
+  ],
+  Accessories: [
+    '${base}icons/gorra1.png',
+    '${base}icons/gorra2.png'
+  ]
 });
 
 const selectedImage = ref(null);
