@@ -9,10 +9,10 @@ const suggestion = ref({
   event: 'sin evento',
   style: 'casual',
   outfitImages: [
-    '/icons/camiseta1.png',
-    '/icons/pantalon3.png',
-    '/icons/zapatos3.png',
-    '/icons/gorra2.png'
+    'icons/camiseta1.png',
+    'icons/pantalon3.png',
+    'icons/zapatos3.png',
+    'icons/gorra2.png'
   ]
 })
 
@@ -24,10 +24,10 @@ const nuevaSugerencia = () => {
     event: 'sin evento',
     style: 'casual',
     outfitImages: [
-      '/icons/camiseta3.png',
-      '/icons/pantalon2.png',
-      '/icons/zapatos3.png',
-      '/icons/gorra1.png'
+      'icons/camiseta3.png',
+      'icons/pantalon2.png',
+      'icons/zapatos3.png',
+      'icons/gorra1.png'
     ]
   }
 }

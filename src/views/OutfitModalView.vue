@@ -1,48 +1,23 @@
 <script setup>
 import {defineProps, defineEmits, ref} from 'vue'
 
-const outfits = [
-  [
-    "../../public/icons/camiseta1.png",
-    "../../public/icons/pantalon1.jpg",
-    "../../public/icons/zapatos1.png",
-    "../../public/icons/gorra1.png"
-  ],
-  [
-    "../../public/icons/camiseta2.png",
-    "../../public/icons/pantalon2.jpg",
-    "../../public/icons/zapatos2.png",
-    "../../public/icons/gorra1.png"
-  ],
-  [
-    "../../public/icons/camiseta3.png",
-    "../../public/icons/pantalon3.jpg",
-    "../../public/icons/zapatos3.png",
-    "../../public/icons/gorra2.png"
-  ]
-]
-
-const props = defineProps({
-  showModal: Boolean
-})
-
 const emit = defineEmits(['closeModal'])
 
 const closeModal = () => {
   emit('closeModal')
 }
 const outfitImages1 = [
-  "../../public/icons/gorra1.png",
-  "../../public/icons/camiseta1.png",
-  "../../public/icons/pantalon1.jpg",
-  "../../public/icons/zapatos3.png"
+  "icons/gorra1.png",
+  "icons/camiseta1.png",
+  "icons/pantalon1.jpg",
+  "icons/zapatos3.png"
 ]
 
 const outfitImages2 = [
-  "../../public/icons/gorra2.png",
-  "../../public/icons/camiseta2.png",
-  "../../public/icons/pantalon2.png",
-  "../../public/icons/zapatos3.png"
+  "icons/gorra2.png",
+  "icons/camiseta2.png",
+  "icons/pantalon2.png",
+  "icons/zapatos3.png"
 ]
 
 const outfitImages = ref(outfitImages1)

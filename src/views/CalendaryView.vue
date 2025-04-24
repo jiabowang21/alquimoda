@@ -38,7 +38,7 @@ const base = import.meta.env.BASE_URL;
 const days = [
   {
     name: "Monday",
-    image: "/icons/monday.png",
+    image: "icons/monday.png",
     details: [
       "Top: Beige short-sleeve shirt",
       "Bottom: Brown shorts",
@@ -49,7 +49,7 @@ const days = [
   },
   {
     name: "Tuesday",
-    image: "/icons/tuesday.png",
+    image: "icons/tuesday.png",
     details: [
       "Top: Light tan overshirt",
       "Bottom: Olive green pants",
@@ -60,7 +60,7 @@ const days = [
   },
   {
     name: "Wednesday",
-    image: "/icons/wenesday.png",
+    image: "icons/wenesday.png",
     details: [
       "Top: Dark brown jacket",
       "Bottom: Beige chinos",
@@ -71,7 +71,7 @@ const days = [
   },
   {
     name: "Thursday",
-    image: "/icons/thursday.png",
+    image: "icons/thursday.png",
     details: [
       "Top: Black jacket with beige inner shirt",
       "Bottom: Rust brown pants",
@@ -81,7 +81,7 @@ const days = [
   },
   {
     name: "Friday",
-    image: "/icons/friday.png",
+    image: "icons/friday.png",
     details: [
       "Top: Olive green overshirt",
       "Bottom: Dark denim jeans",
@@ -92,7 +92,7 @@ const days = [
   },
   {
     name: "Saturday",
-    image: "/icons/saturday.png",
+    image: "icons/saturday.png",
     details: [
       "Top: Beige overshirt",
       "Bottom: Light beige pants",
@@ -103,7 +103,7 @@ const days = [
   },
   {
     name: "Sunday",
-    image: "/icons/sunday.png",
+    image: "icons/sunday.png",
     details: [
       "Top: Light beige jacket",
       "Bottom: Navy trousers",

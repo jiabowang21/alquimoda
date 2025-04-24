@@ -17,7 +17,7 @@ const takeAnother = () => {
 
 <template>
   <div class="photo-review-container d-flex flex-column justify-content-center align-items-center text-center">
-    <img src="../../public/icons/camiseta3.png" alt="Captured Photo" class="captured-photo mb-4" />
+    <img src="icons/camiseta3.png" alt="Captured Photo" class="captured-photo mb-4" />
 
     <div class="d-flex gap-3">
       <button @click="saveToCloset" class="btn btn-success">Save to Closet</button>

@@ -8,28 +8,28 @@ const items = ref([
     id: 1,
     name: 'Abrigo beige',
     price: 49.99,
-    image: '/icons/abrigo1.png',
+    image: 'icons/abrigo1.png',
     selected: false
   },
   {
     id: 2,
     name: 'Camisa blanca',
     price: 24.90,
-    image: '/icons/camisa1.png',
+    image: 'icons/camisa1.png',
     selected: false
   },
   {
     id: 3,
     name: 'Jeans slim fit',
     price: 39.50,
-    image: '/icons/jeans1.png',
+    image: 'icons/jeans1.png',
     selected: false
   },
   {
     id: 4,
     name: 'Zapatillas urbanas',
     price: 59.90,
-    image: '/icons/zapatillas1.png',
+    image: 'icons/zapatillas1.png',
     selected: false
   }
 ])
