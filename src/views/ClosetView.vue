@@ -4,23 +4,23 @@ const base = import.meta.env.BASE_URL;
 
 const closet = ref({
   Tops: [
-    '${base}icons/camiseta1.png',
-    '${base}icons/camiseta2.png',
-    '${base}icons/camiseta3.png'
+    'icons/camiseta1.png',
+    'icons/camiseta2.png',
+    'icons/camiseta3.png'
   ],
   Bottoms: [
-    '${base}icons/pantalon1.jpg',
-    '${base}icons/pantalon2.png',
-    '${base}icons/pantalon3.png'
+    'icons/pantalon1.jpg',
+    'icons/pantalon2.png',
+    'icons/pantalon3.png'
   ],
   Shoes: [
-    '${base}icons/zapatos1.png',
-    '${base}icons/zapatos2.png',
-    '${base}icons/zapatos3.png'
+    'icons/zapatos1.png',
+    'icons/zapatos2.png',
+    'icons/zapatos3.png'
   ],
   Accessories: [
-    '${base}icons/gorra1.png',
-    '${base}icons/gorra2.png'
+    'icons/gorra1.png',
+    'icons/gorra2.png'
   ]
 });
 
