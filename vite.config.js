@@ -13,7 +13,6 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      'bootstrap': '/node_modules/bootstrap',
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
