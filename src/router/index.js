@@ -1,7 +1,7 @@
-import {createRouter, createWebHashHistory, createWebHistory} from "vue-router";
-import LoginView from "../views/LoginView.vue";
-import RegisterView from "../views/RegisterView.vue";
-import ClosetView from "../views/ClosetView.vue";
+import {createRouter, createWebHashHistory} from "vue-router";
+import LoginView from "@/views/LoginView.vue";
+import RegisterView from "@/views/RegisterView.vue";
+import ClosetView from "@/views/ClosetView.vue";
 import ScannerView from "@/views/ScannerView.vue";
 import HomeView from "@/views/HomeView.vue";
 import PhotoReviewView from "@/views/PhotoReviewView.vue";

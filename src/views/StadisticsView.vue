@@ -38,7 +38,7 @@ const users = [
     <div class="card">
       <h3>Usage Trend</h3>
       <div class="chart-area">
-        <img src="/icons/metrics.png" alt="Usage trend chart" />
+        <img src="../../public/icons/metrics.png" alt="Usage trend chart" />
       </div>
     </div>
 

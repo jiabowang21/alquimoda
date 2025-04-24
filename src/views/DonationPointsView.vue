@@ -4,19 +4,19 @@ const locations = [
     name: "Recycling Point 1 (Street A, 30)",
     rating: "4.8 (500 reviews)",
     distance: "1.2 km",
-    image: "/icons/point1.jpg"
+    image: "../../public/icons/point1.jpg"
   },
   {
     name: "Donation Spot 2 (Street B, 20)",
     rating: "4.6 (320 reviews)",
     distance: "0.8 km",
-    image: "/icons/point2.png"
+    image: "../../public/icons/point2.png"
   },
   {
     name: "Solidarity Textile Center (Street C, 130)",
     rating: "4.9 (210 reviews)",
     distance: "1.6 km",
-    image: "/icons/point3.png"
+    image: "../../public/icons/point3.png"
   }
 ];
 </script>
@@ -24,7 +24,7 @@ const locations = [
 <template>
   <div class="donation-view">
     <div class="map-area">
-      <img src="/icons/mapa.png" alt="Map with donation points" />
+      <img src="../../public/icons/mapa.png" alt="Map with donation points" />
     </div>
 
     <div class="list-area">
