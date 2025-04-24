@@ -2,17 +2,17 @@
 import { ref } from 'vue';
 
 const closet = ref({
-  Tops: [("https://jiabowang21.github.io/alquimoda/icons/camiseta1.png"),
-         ("https://jiabowang21.github.io/alquimoda/icons/camiseta2.png"),
-         ("https://jiabowang21.github.io/alquimoda/icons/camiseta3.png")],
-  Bottoms: [("https://jiabowang21.github.io/alquimoda/icons/pantalon1.jpg"),
-            ("https://jiabowang21.github.io/alquimoda/icons/pantalon2.png"),
-            ("https://jiabowang21.github.io/alquimoda/icons/pantalon3.png")],
-  Shoes: [("https://jiabowang21.github.io/alquimoda/icons/zapatos1.png"),
-          ("https://jiabowang21.github.io/alquimoda/icons/zapatos2.png"),
-          ("https://jiabowang21.github.io/alquimoda/icons/zapatos3.png")],
-  Accessories: [("https://jiabowang21.github.io/alquimoda/icons/gorra1.png"),
-                ("https://jiabowang21.github.io/alquimoda/icons/gorra2.png")]
+  Tops: [("/alquimoda/icons/camiseta1.png"),
+         ("/alquimoda/icons/camiseta2.png"),
+         ("/alquimoda/icons/camiseta3.png")],
+  Bottoms: [("/alquimoda/icons/pantalon1.jpg"),
+            ("/alquimoda/icons/pantalon2.png"),
+            ("/alquimoda/icons/pantalon3.png")],
+  Shoes: [("/alquimoda/icons/zapatos1.png"),
+          ("/alquimoda/icons/zapatos2.png"),
+          ("/alquimoda/icons/zapatos3.png")],
+  Accessories: [("/alquimoda/icons/gorra1.png"),
+                ("/alquimoda/icons/gorra2.png")]
 });
 
 const selectedImage = ref(null);
