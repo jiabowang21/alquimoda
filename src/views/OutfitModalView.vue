@@ -1,11 +1,16 @@
 <script setup>
-import {defineProps, defineEmits, ref} from 'vue'
+import { defineProps, defineEmits, ref } from 'vue'
+
+const { showModal } = defineProps({
+  showModal: Boolean
+})
 
 const emit = defineEmits(['closeModal'])
 
 const closeModal = () => {
   emit('closeModal')
 }
+
 const outfitImages1 = [
   "icons/gorra1.png",
   "icons/camiseta1.png",
