@@ -24,7 +24,7 @@ const locations = [
 <template>
   <div class="donation-view">
     <div class="map-area">
-      <img src="icons/mapa.png" alt="Map with donation points" />
+      <img src="../../public/icons/mapa.png" alt="Map with donation points" />
     </div>
 
     <div class="list-area">
