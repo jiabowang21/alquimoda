@@ -33,40 +33,40 @@ const hideNavbarRoutes = ['/', '/login', '/register'];
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <RouterLink to="./home" class="nav-link">Home</RouterLink>
+          <RouterLink to="/home" class="nav-link">Home</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./scanner" class="nav-link">Scanner</RouterLink>
+          <RouterLink to="/scanner" class="nav-link">Scanner</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./closet" class="nav-link">Closet</RouterLink>
+          <RouterLink to="/closet" class="nav-link">Closet</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./generator" class="nav-link">Generator</RouterLink>
+          <RouterLink to="/generator" class="nav-link">Generator</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./chatbot" class="nav-link">ChatBot</RouterLink>
+          <RouterLink to="/chatbot" class="nav-link">ChatBot</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./socialMedia" class="nav-link">SocialMedia</RouterLink>
+          <RouterLink to="/socialMedia" class="nav-link">SocialMedia</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./buy" class="nav-link">Buy</RouterLink>
+          <RouterLink to="/buy" class="nav-link">Buy</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./ootd" class="nav-link">Outfit of the day</RouterLink>
+          <RouterLink to="/ootd" class="nav-link">Outfit of the day</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./calendary" class="nav-link">Calendar</RouterLink>
+          <RouterLink to="/calendary" class="nav-link">Calendar</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./donationPoints" class="nav-link">Donation</RouterLink>
+          <RouterLink to="/donationPoints" class="nav-link">Donation</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./metrics" class="nav-link">Metrics</RouterLink>
+          <RouterLink to="/metrics" class="nav-link">Metrics</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="./vr" class="nav-link">VR</RouterLink>
+          <RouterLink to="/vr" class="nav-link">VR</RouterLink>
         </li>
       </ul>
     </div>
