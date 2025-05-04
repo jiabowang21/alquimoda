@@ -6,6 +6,15 @@
     <img src="../../public/icons/logo2.png" alt="Alquimoda Logo" class="logo mb-4" />
     <h1 class="welcome-text">Welcome to AlquiModa</h1>
     <p class="lead">Your fashion assistant, one outfit at a time 👗👔</p>
+    <video
+        class="video-player"
+        src="/public/publicidad.mp4"
+        controls
+        width="780"
+        height="570"
+        loop
+        muted
+    ></video>
   </div>
 </template>
 
@@ -15,11 +24,6 @@
   background: linear-gradient(135deg, #ffffff 0%, #dfe4ea 100%);
   font-family: 'Poppins', sans-serif;
   padding: 2rem;
-}
-
-.logo {
-  width: 700px;
-  height: auto;
 }
 
 .welcome-text {
