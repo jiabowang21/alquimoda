@@ -26,6 +26,11 @@
   padding: 2rem;
 }
 
+.logo {
+  width: 700px;
+  height: auto;
+}
+
 .welcome-text {
   font-size: 2.5rem;
   font-weight: 600;
